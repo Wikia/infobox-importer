@@ -1,0 +1,24 @@
+{
+  "name": "infoboximporter",
+  "version": "1.0.0",
+  "description": "Infobox Importer Script for Japanese Wikias",
+  "main": "infoboximporter.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Per Johan Groland <pgroland@wikia-inc.com>",
+  "dependencies": {
+    "co": "^4.5.4",
+    "colors": "^1.1.2",
+    "nomnom": "^1.8.1",
+    "prettyjson": "^1.1.2",
+    "request": "^2.58.0",
+    "rsvp": "^3.0.18"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1"
+  }
+}
